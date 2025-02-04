@@ -15,7 +15,35 @@
       <h1>Picture This!</h1>
       <h4>My Really Cool Blog Post</h4>
     </div>
-    <img src="images/museum.jpg" alt="placeholder">
+    <!-- Responsive picture -->
+     <picture>
+
+      <source srcset="./images/landscape-320.jpg 320w,
+      ./images/landscape-640.jpg 640w,
+      ./images/landscape-960.jpg 960w,
+      ./images/landscape-480.jpg 480w,
+      ./images/landscape-960.jpg 960w,
+      ./images/landscape-1440.jpg 1440w,
+      ./images/landscape-720.jpg 720w,
+      ./images/landscape-1440.jpg 1440w,
+      ./images/landscape-2160.jpg 2160w,
+      ./images/landscape-960.jpg 960w,
+      ./images/landscape-1920.jpg 1920w,
+      ./images/landscape-2880.jpg 2880w"
+      media="(max-width: 960)"/>
+      <source srecet="./images/square-480.jpg 480w,
+      ./images/square-960.jpg 960w,
+      ./images/square-1440.jpg 1440w,
+      ./images/square-640.jpg 640w,
+      ./images/square-1280.jpg 1280w,
+      ./images/square-1920.jpg 1920w,
+      ./images/square-800.jpg 800w,
+      ./images/square-1600.jpg 1600w,
+      ./images/square-2400.jpg 2400w,"
+      media="(min-width: 960)"/>
+      <img src="images/museum.jpg" alt="placeholder">
+     </picture>
+    
 
   </header>
 </body>
