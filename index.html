@@ -16,43 +16,46 @@
       <h4>My Really Cool Blog Post</h4>
     </div>
     <!-- Responsive picture -->
-     <picture>
+    <picture class="picture">
 
-      <source srcset="./images/landscape-320x.jpg ,
-      ./images/landscape-640x.jpg 2x,
-      ./images/landscape-960x.jpg 3x,"
+      <source srcset="images/landscape-320x.jpg,
+      images/landscape-640x.jpg 2x,
+      images/landscape-960x.jpg 3x" 
       media="(max-width:320px)"/>
 
-      <source srcset="./images/landscape-480x.jpg ,
-      ./images/landscape-960x.jpg 2x,
-      ./images/landscape-1440x.jpg 3x,"
-      media="(max-width:480px)"/>
+      <source srcset="images/landscape-480x.jpg,
+      images/landscape-960x.jpg 2x,
+      images/landscape-1440x.jpg 3x"
+       media="(max-width:480px)"/>
 
-      <source srcset="./images/landscape-720x.jpg ,
-      ./images/landscape-1440x.jpg 2x,
-      ./images/landscape-2160x.jpg 3x,"
+      <source srcset="images/landscape-720x.jpg,
+      images/landscape-1440x.jpg 2x,
+      images/landscape-2160x.jpg 3x" 
       media="(max-width:720px)"/>
-      <source srcset="./images/landscape-960x.jpg ,
-      ./images/landscape-1920x.jpg 2x,
-      ./images/landscape-2880x.jpg 3x,"
-      media="(max-width:960px)"/>
-      
-      <source srecet="./images/square-480.jpg ,
-      ./images/square-960.jpg 2x,
-      ./images/square-1440.jpg 3x,"
-      media="(min-width:960px)"/>
-      <source srecet="./images/square-640.jpg ,
-      ./images/square-1280.jpg 2x,
-      ./images/square-1920.jpg 3x,"
-      media="(min-width:1280px)"/>
-      <source srecet="./images/square-800.jpg ,
-      ./images/square-1600.jpg 2x,
-      ./images/square-2400.jpg 3x,"
+
+      <source srcset="images/landscape-960x.jpg,
+      images/landscape-1920x.jpg 2x,
+    images/landscape-2880x.jpg 3x"
+     media="(max-width:960px)"/>
+
+      <source srcset="images/square-800.jpg,
+      images/square-1600.jpg 2x,
+      images/square-2400.jpg 3x" 
       media="(min-width:1600px)"/>
-    
-      <img src="images/museum.jpg" alt="placeholder">
-     </picture>
-    
+
+      <source srcset="images/square-640.jpg,
+      images/square-1280.jpg 2x,
+      images/square-1920.jpg 3x" 
+      media="(min-width:1280px)"/>
+
+      <source srcset="images/square-480.jpg,
+      images/square-960.jpg 2x,
+      images/square-1440.jpg 3x" 
+      media="(min-width:960px)"/>
+
+      <img src="./images/museum.jpg" alt="placeholder">
+    </picture>
+
 
   </header>
 </body>
